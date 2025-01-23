@@ -1,0 +1,18 @@
+name: Mi Workflow Personalizado
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Presentación de Samu
+        run: echo "Hola, soy Samu y este es mi repositorio"
+
+      - name: Mostrar la fecha actual
+        run: date
+
+      - name: Listar los archivos del repositorio
+        run: ls -la
