@@ -1,7 +1,7 @@
-name: Mi Workflow Personalizado
+name:  Presentación de Samu
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   saludo:
