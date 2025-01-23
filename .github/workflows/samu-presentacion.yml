@@ -1,4 +1,4 @@
-name:  Presentación de Samu
+name:  Workflow de Presentación de Samu
 
 on:
   workflow_dispatch:
